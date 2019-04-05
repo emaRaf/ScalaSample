@@ -1,4 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/emanuele.raffero/Downloads/play-scala-starter-example-2.6.x/conf/application.conf,/Users/emanuele.raffero/Downloads/play-scala-starter-example-2.6.x/target/scala-2.12/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/emanuele.raffero/Downloads/play-scala-starter-example-2.6.x/conf/logback.xml,/Users/emanuele.raffero/Downloads/play-scala-starter-example-2.6.x/target/scala-2.12/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/emanuele.raffero/Downloads/play-scala-starter-example-2.6.x/conf/routes,/Users/emanuele.raffero/Downloads/play-scala-starter-example-2.6.x/target/scala-2.12/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/emanuele.raffero/Documents/git/ScalaSample/conf/application.conf,/Users/emanuele.raffero/Documents/git/ScalaSample/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/emanuele.raffero/Documents/git/ScalaSample/conf/logback.xml,/Users/emanuele.raffero/Documents/git/ScalaSample/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/emanuele.raffero/Documents/git/ScalaSample/conf/routes,/Users/emanuele.raffero/Documents/git/ScalaSample/target/scala-2.12/classes/routes)[0m

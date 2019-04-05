@@ -13,6 +13,7 @@ class HelloWorld {
     val now = new Date
     val df = getDateInstance(LONG, Locale.FRANCE)
     println(df format now)
+    println((1).+(((2).*(3))./(1)))
   }
 }
 

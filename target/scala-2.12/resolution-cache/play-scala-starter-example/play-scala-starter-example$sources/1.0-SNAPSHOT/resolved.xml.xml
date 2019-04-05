@@ -4,7 +4,7 @@
 		module="play-scala-starter-example$sources"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190403135724"
+		publication="20190403151529"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

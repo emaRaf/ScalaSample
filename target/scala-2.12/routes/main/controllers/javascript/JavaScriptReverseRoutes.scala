@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/Users/emanuele.raffero/Downloads/play-scala-starter-example-2.6.x/conf/routes
-// @DATE:Wed Apr 03 13:58:28 CEST 2019
+// @SOURCE:/Users/emanuele.raffero/Documents/git/ScalaSample/conf/routes
+// @DATE:Fri Apr 05 10:26:55 CEST 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
