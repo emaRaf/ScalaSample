@@ -4,7 +4,7 @@
 		module="play-scala-starter-example_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190409100722"
+		publication="20190409153625"
 	>
 		<description>
 		play-scala-starter-example
@@ -54,6 +54,16 @@
 		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.6.21" conf="compile->default(compile)"/>
 		<dependency org="org.scalatestplus.play" name="scalatestplus-play_2.12" rev="3.1.2" conf="test->default(compile)"/>
 		<dependency org="com.h2database" name="h2" rev="1.4.197" conf="compile->default(compile)"/>
-		<dependency org="scala.trace" name="scala-trace-debug_2.12" rev="2.2.17" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.12.8" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http_2.12" rev="10.1.8" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.12" rev="2.5.21" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-slf4j_2.12" rev="2.5.21" conf="compile->default(compile)"/>
+		<dependency org="de.heikoseeberger" name="akka-http-circe_2.12" rev="1.20.1" conf="compile->default(compile)"/>
+		<dependency org="io.circe" name="circe-generic_2.12" rev="0.9.3" conf="compile->default(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.2.3" conf="compile->default(compile)"/>
+		<dependency org="io.getquill" name="quill-async-postgres_2.12" rev="3.1.0" conf="compile->default(compile)"/>
+		<dependency org="nl.grons" name="metrics4-scala_2.12" rev="4.0.4" conf="compile->default(compile)"/>
+		<dependency org="io.prometheus" name="simpleclient_dropwizard" rev="0.6.0" conf="compile->default(compile)"/>
+		<dependency org="io.prometheus" name="simpleclient_common" rev="0.6.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
