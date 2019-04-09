@@ -1,10 +1,11 @@
-import services.MyService
+package tutorial
+
 import org.scalatest._
 
-  class MyServiceTest extends FlatSpec
+  class MyServiceGenericTest extends FlatSpec
     with GivenWhenThen with Matchers with BeforeAndAfter with BeforeAndAfterAll {
 
-    val emptyStack = new MyService[String]
+    val emptyStack = new MyServiceGeneric[String]
     before {
       println("Starting")
     }
@@ -37,7 +38,7 @@ import org.scalatest._
     }
 
     it should "pop values in last-in-first-out order" in {
-      val stack = new MyService[Int]
+      val stack = new MyServiceGeneric[Int]
       stack.push(1)
       assert(stack.size === 1)
       stack.push(2)
@@ -50,6 +51,21 @@ import org.scalatest._
     }
 
     it should "fail" in {
+      println("\nStep 2: Review how to call a function which has typed parameters")
+      emptyStack.applyDiscount[String]("COUPON_123")
+      emptyStack.applyDiscount[Double](10)
+
+      println("\nStep 4: How to call a generic typed function which also has a generic return type")
+      println(s"Result of applyDiscountWithReturnType with String parameter = ${emptyStack.applyDiscountWithReturnType[String]("COUPON_123")}")
+
+      println()
+      println(s"Result of applyDiscountWithReturnType with Double parameter = ${emptyStack.applyDiscountWithReturnType[Double](10.5)}")
+
+      println()
+      println(s"Result of applyDiscountWithReturnType with Char parameter = ${emptyStack.applyDiscountWithReturnType[Char]('U')}")
+
+
+
         assert(true === false)
       }
 

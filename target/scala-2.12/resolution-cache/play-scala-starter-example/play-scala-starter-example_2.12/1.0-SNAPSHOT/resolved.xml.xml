@@ -4,7 +4,7 @@
 		module="play-scala-starter-example_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190403132816"
+		publication="20190409100722"
 	>
 		<description>
 		play-scala-starter-example
@@ -54,5 +54,6 @@
 		<dependency org="com.typesafe.play" name="play-guice_2.12" rev="2.6.21" conf="compile->default(compile)"/>
 		<dependency org="org.scalatestplus.play" name="scalatestplus-play_2.12" rev="3.1.2" conf="test->default(compile)"/>
 		<dependency org="com.h2database" name="h2" rev="1.4.197" conf="compile->default(compile)"/>
+		<dependency org="scala.trace" name="scala-trace-debug_2.12" rev="2.2.17" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

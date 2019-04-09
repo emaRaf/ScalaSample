@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, web-assets, web-assets-test, web-plugin, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
-		date="20190403132816"/>
+		date="20190409100723"/>
 	<dependencies>
 		<module organisation="com.h2database" name="h2">
 			<revision name="1.4.197" status="release" pubdate="20180318212844" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="55">
@@ -794,6 +794,13 @@
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5272591" time="0" location="/Users/emanuele.raffero/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="scala.trace" name="scala-trace-debug_2.12">
+			<revision name="2.2.17" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="play-scala-starter-example" name="play-scala-starter-example_2.12" conf="compile, runtime" rev="2.2.17" rev-constraint-default="2.2.17" rev-constraint-dynamic="2.2.17" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
