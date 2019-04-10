@@ -3,17 +3,10 @@ package monkeypatching
 import org.scalatest.{BeforeAndAfter, BeforeAndAfterAll, FlatSpec, GivenWhenThen, Matchers}
 import tutorial.Complex
 import monkeypatching.PersonExtensions._
+import scala.collection.JavaConverters._
 
 class PersonExtensionTest extends FlatSpec
   with GivenWhenThen with Matchers with BeforeAndAfter with BeforeAndAfterAll {
-
-  /*
-  implicit class PersonExtensionImplicit() {
-    def incAgeImplicit(person: Person): Person = {
-      person.copy(age = person.age + 1)
-    }
-  }
-*/
 
   val person: Person = new Person("ema", 99)
 
