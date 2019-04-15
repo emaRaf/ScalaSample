@@ -4,8 +4,6 @@
       <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-all/jars/netty-all-4.1.6.Final.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/io.netty/netty-all/srcs/netty-all-4.1.6.Final-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

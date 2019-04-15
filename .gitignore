@@ -1,1 +1,5 @@
-target/*
+./target/*
+./project/target/*
+./idea/*
+./DS_Store
+./logs/*
