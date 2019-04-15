@@ -1,8 +1,6 @@
-
-
-# ./target/*
-# ./project/target/*
-# ./.idea/*
-# ./DS_Store
-# ./logs/*
-
+target/**
+project/**/target/**
+project/project/**
+.idea/**
+DS_Store
+logs/**
