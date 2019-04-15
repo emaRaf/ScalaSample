@@ -10,14 +10,15 @@ resolvers += "johnreed2 bintray" at "http://dl.bintray.com/content/johnreed2/mav
 
 scalaVersion := "2.12.8"
 
-val akkaHttp = "10.1.8"
-val akka = "2.5.21"
+val akkaHttp = "10.0.3"
+val akka = "2.4.16"
 val akkaHttpCirce = "1.20.1"
 val logbackClassic = "1.2.3"
 val circe = "0.9.3"
 val quill = "3.1.0"
 val metrics = "4.0.4"
 val prometheusSimpleClient = "0.6.0"
+
 
 crossScalaVersions := Seq("2.11.12", "2.12.7")
 

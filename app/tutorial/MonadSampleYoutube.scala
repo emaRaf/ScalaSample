@@ -17,7 +17,7 @@ object MonadSampleYoutube {
     }
 
     def main(args: Array[String]) {
-      println("Hello Monad!")
+     println("Hello Monad!")
       val intMonad1 = IdentityMonad(1)
       val intMonad2 = intMonad1 map (_ + 1)
       val intMonad3 = intMonad2 flatMap (int => IdentityMonad(int + 1))

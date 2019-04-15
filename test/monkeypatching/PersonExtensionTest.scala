@@ -25,7 +25,6 @@ class PersonExtensionTest extends FlatSpec
     val olderPerson = PersonExtension.incAge(person)
     println(olderPerson);
 
-
     assert(true === false)
   }
 
